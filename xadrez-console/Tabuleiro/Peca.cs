@@ -6,8 +6,8 @@ namespace tabuleiro {
         public int qtdeMovimentos { get; protected set; }
         public Tabuleiro tab { get; protected set; }
 
-        public Peca(Posicao posicao, Cor cor, Tabuleiro tab) {
-            this.posicao = posicao;
+        public Peca(Cor cor, Tabuleiro tab) {
+            this.posicao = null;
             this.cor = cor;
             this.tab = tab;
             this.qtdeMovimentos = 0;
