@@ -15,7 +15,7 @@ namespace tabuleiro {
             return pecas[linha, coluna];
         }
         public Peca peca(Posicao pos) {
-            return pecas[pos.linha, pos.coluna];
+            return pecas[pos.linha, pos.coluna]; // corrigir erro coluna 'j'
         }
 
         public bool existePeca(Posicao pos) {
